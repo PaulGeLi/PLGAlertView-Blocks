@@ -27,7 +27,7 @@ UIActionSheet *sheet = [UIActionSheet actionSheetWithTitle:@"是否退出？" ca
 } destructiveButtonTitle:@"其他" destructiveHandler:^{
 //
 }];
-[sheet addTitle:@"退出" handle:^{
+[sheet addTitle:@"确定" handle:^{
 //
 }];
 [sheet showInView:self.view];
